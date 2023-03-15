@@ -1,0 +1,70 @@
+body {
+    font-family: "Silkscreen";
+    background: linear-gradient(75deg , #EDE4DA 51%, #BAB3AC 49%);
+  }
+  
+  .card {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    background: #b5b2b0;
+  }
+  
+  .bg-light {
+    background-color:#e3cdb602!important;
+  }
+  
+  .card-header {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-header h4 {
+    color: #5f5d5c;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 5px solid #7b7878;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: #2D2727;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: #665b5b;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: #2D2727;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: #111012;
+  }
